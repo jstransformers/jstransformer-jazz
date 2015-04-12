@@ -15,7 +15,7 @@
 ```js
 var jazz = require('jstransformer')(require('jstransformer-jazz'))
 
-jazz.renderAjax('Hello, {name}!', { name: 'World'}, function(err, data) {
+jazz.renderAsync('Hello, {name}!', { name: 'World'}, function(err, data) {
   data.body
   //=> 'Hello, World!'
 });
