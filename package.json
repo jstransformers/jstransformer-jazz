@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "jazz": "0.0.18",
-    "promise": "^7.0.0"
+    "promise": "^7.0.4"
   },
   "name": "jstransformer-jazz",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Jazz support for JSTransformer.",
   "keywords": [
     "jstransformer"
@@ -19,9 +19,12 @@
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer"
   },
+  "engines": {
+    "node": ">=0.10.36"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-jazz.git"
+    "url": "https://github.com/jstransformers/jstransformer-foo.git"
   },
   "author": {
     "name": "JSTransformers Team",
