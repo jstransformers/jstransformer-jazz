@@ -4,7 +4,7 @@
     "promise": "^7.0.4"
   },
   "name": "jstransformer-jazz",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Jazz support for JSTransformer.",
   "keywords": [
     "jstransformer"
@@ -16,8 +16,11 @@
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "test-jstransformer",
-    "coverage": "test-jstransformer coverage"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "engines": {
+    "node": ">=0.10.36"
   },
   "repository": {
     "type": "git",
