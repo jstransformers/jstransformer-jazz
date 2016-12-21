@@ -1,21 +1,20 @@
-'use strict';
+'use strict'
 
-var jazz = require('jazz');
-var Promise = require('promise');
+var jazz = require('jazz')
+var Promise = require('promise')
 
-exports.name = 'jazz';
-exports.outputFormat = 'html';
+exports.name = 'jazz'
+exports.outputFormat = 'html'
 
 exports.renderAsync = function (str, options, locals) {
-  var template = jazz.compile(str, options);
+  var template = jazz.compile(str, options)
   return new Promise(function (resolve, reject) {
     template.eval(locals, function (data) {
       if (data) {
-        resolve(data);
+        resolve(data)
+      } else {
+        reject(data)
       }
-      else {
-        reject(data);
-      }
-    });
-  });
-};
+    })
+  })
+}
