@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.0: 2016-12-24
+
+- Fixed tests
+
 ## v0.2.1: 2015-10-15
 
 - Updated Boilerplate
