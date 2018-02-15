@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var jazz = require('jstransformer')(require('jstransformer-jazz'));
+var jazz = require('jstransformer')(require('jstransformer-jazz'))
 
 jazz.renderAsync('Hello, {name}!', { name: 'World'}, function(err, data) {
   data.body
