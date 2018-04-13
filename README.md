@@ -1,5 +1,7 @@
 # jstransformer-jazz
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-jazz.svg)](https://greenkeeper.io/)
+
 [Jazz](https://github.com/shinetech/jazz) support for [JSTransformer](https://github.com/jstransformers/jstransformer).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-jazz/master.svg)](https://travis-ci.org/jstransformers/jstransformer-jazz)
