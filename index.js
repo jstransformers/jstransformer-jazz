@@ -1,14 +1,16 @@
 'use strict'
 
 const jazz = require('jazz')
+const merge = require('merge')
 
 exports.name = 'jazz'
 exports.outputFormat = 'html'
 
-exports.renderFileAsync = function (file, options, locals) {
-  const template = jazz.compile(file, options)
+exports.renderAsync = function (source, options, locals) {
+  const template = jazz.compile(source)
+  const opts = merge(options, locals)
   return new Promise((resolve, reject) => {
-    template.eval(locals, output => {
+    template.eval(opts, output => {
       if (output) {
         resolve(output)
       } else {
