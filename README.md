@@ -1,7 +1,5 @@
 # jstransformer-jazz
 
-
-
 [Jazz](https://github.com/shinetech/jazz) support for [JSTransformer](https://github.com/jstransformers/jstransformer).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-jazz/master.svg)](https://travis-ci.org/jstransformers/jstransformer-jazz)
